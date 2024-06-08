@@ -494,6 +494,7 @@ After you launched Redis database install python library to interact with it:
 
 ```bash
 pip install redis
+sudo apt-get install redis-server
 ```
 
 And update `TcStorage` class in `tc_storage.py`:
